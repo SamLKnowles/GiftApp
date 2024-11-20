@@ -1,11 +1,11 @@
 import streamlit as st
 import os
 import psycopg2
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
 import pandas as pd
 
 # Load environment variables from the .env file
-load_dotenv()
+#load_dotenv()
 
 class DatabaseActions():
     def __init__(self):
