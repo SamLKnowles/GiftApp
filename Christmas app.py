@@ -120,7 +120,7 @@ if user != "" and gift_receiver != None:
     recipient_gifts = [gift for gift in gifts if gift[1] == gift_receiver and gift[6] != "Yes"]
 
     if user == gift_receiver:
-        recipient_gifts = [gift for gift in gifts if gift[2] == gift_receiver]
+        recipient_gifts = [gift for gift in gifts if gift[1] == gift_receiver]
 
     if recipient_gifts and user != gift_receiver:
         # Display a custom table layout with headers and checkboxes
